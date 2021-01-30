@@ -19,7 +19,7 @@ $(document).ready(function () {
         }
         $.ajax({
             type: "post",
-            url: "/addapp",
+            url: "/appData",
             data: jobInformation,
             dataType: "dataType",
             success: function (res) {
