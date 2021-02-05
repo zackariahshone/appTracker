@@ -14,10 +14,10 @@
     "dialect": "mysql"
   },
   "production": {
-    "username": "root",
-    "password": "root",
-    "database": "appTracker",
-    "host": "127.0.0.1",
+    "username": "eihnp2nciqvtanis",
+    "password": "pwkn64o1bd2t2xvc",
+    "database": "c8y1bpe68u9q8u0i",
+    "host": "pfw0ltdr46khxib3.cbetxkdyhwsb.us-east-1.rds.amazonaws.com",
     "dialect": "mysql"
   }
 }
