@@ -9,7 +9,7 @@ $(document).ready(function () {
     const submit = document.getElementById('submitButton');
     
     submit.addEventListener('click', (e)=>{
-        e.preventDefault();
+        // e.preventDefault();
         const jobInformation = {
             'business': business.value,
             'jobTitle': jobTitle.value,
@@ -17,8 +17,9 @@ $(document).ready(function () {
             'jobReq':jobReq.value,
             'contact':contact.value
         }
+        console.log(jobInformation);
         $.ajax({
-            type: "post",
+            type: "POST",
             url: "/appData",
             data: jobInformation,
             dataType: "dataType",

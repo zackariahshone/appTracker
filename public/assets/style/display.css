@@ -1,0 +1,8 @@
+.remove{
+    color: red;
+    text-align: right;
+    
+}
+.remove:hover{
+    cursor:pointer;
+}
