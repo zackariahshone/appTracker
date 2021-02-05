@@ -2,7 +2,7 @@ const express = require('express');
 // const port = process.env.PORT || 8000;
 const app = express();
 const appRoutes = require ('./routes/applications.js');
-require("./routes/htmlroutes.js")(app);
+const htmlRoutes = require('./routes/htmlRoutes')
 
 
 const db = require('./models');
@@ -12,7 +12,8 @@ app.use(express.urlencoded({
 }));
 
 app.use(appRoutes);
-app.use(express.static('public'));
+app.use(htmlRoutes);
+app.use(express.static('/public'));
 
 db.sequelize.sync().then(()=>{
     app.listen(process.env.PORT || 8000, ()=>{
