@@ -1,5 +1,3 @@
-const { faUser } = require('@fortawesome/free-regular-svg-icons');
-const { faAppleAlt } = require('@fortawesome/free-solid-svg-icons');
 const express = require('express');
 const appl = require('../controllers/appCont');
 
