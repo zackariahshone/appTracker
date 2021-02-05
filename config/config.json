@@ -1,18 +1,5 @@
 {
-  "development": {
-    "username": "root",
-    "password": "root",
-    "database": "appTracker",
-    "host": "127.0.0.1",
-    "dialect": "mysql"
-  },
-  "test": {
-    "username": "root",
-    "password": "root",
-    "database": "appTracker",
-    "host": "127.0.0.1",
-    "dialect": "mysql"
-  },
+  
   "production": {
     "username": "eihnp2nciqvtanis",
     "password": "pwkn64o1bd2t2xvc",
